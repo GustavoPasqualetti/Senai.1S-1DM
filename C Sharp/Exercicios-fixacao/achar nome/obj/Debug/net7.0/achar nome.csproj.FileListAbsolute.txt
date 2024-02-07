@@ -1,0 +1,15 @@
+C:\Users\49802004863\Desktop\achar nome\bin\Debug\net7.0\achar nome.exe
+C:\Users\49802004863\Desktop\achar nome\bin\Debug\net7.0\achar nome.deps.json
+C:\Users\49802004863\Desktop\achar nome\bin\Debug\net7.0\achar nome.runtimeconfig.json
+C:\Users\49802004863\Desktop\achar nome\bin\Debug\net7.0\achar nome.dll
+C:\Users\49802004863\Desktop\achar nome\bin\Debug\net7.0\achar nome.pdb
+C:\Users\49802004863\Desktop\achar nome\obj\Debug\net7.0\achar nome.csproj.AssemblyReference.cache
+C:\Users\49802004863\Desktop\achar nome\obj\Debug\net7.0\achar nome.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49802004863\Desktop\achar nome\obj\Debug\net7.0\achar nome.AssemblyInfoInputs.cache
+C:\Users\49802004863\Desktop\achar nome\obj\Debug\net7.0\achar nome.AssemblyInfo.cs
+C:\Users\49802004863\Desktop\achar nome\obj\Debug\net7.0\achar nome.csproj.CoreCompileInputs.cache
+C:\Users\49802004863\Desktop\achar nome\obj\Debug\net7.0\achar nome.dll
+C:\Users\49802004863\Desktop\achar nome\obj\Debug\net7.0\refint\achar nome.dll
+C:\Users\49802004863\Desktop\achar nome\obj\Debug\net7.0\achar nome.pdb
+C:\Users\49802004863\Desktop\achar nome\obj\Debug\net7.0\achar nome.genruntimeconfig.cache
+C:\Users\49802004863\Desktop\achar nome\obj\Debug\net7.0\ref\achar nome.dll

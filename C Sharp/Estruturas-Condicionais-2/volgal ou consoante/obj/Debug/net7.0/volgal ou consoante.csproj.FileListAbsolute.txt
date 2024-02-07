@@ -1,0 +1,15 @@
+C:\Users\49802004863\Desktop\volgal ou consoante\bin\Debug\net7.0\volgal ou consoante.exe
+C:\Users\49802004863\Desktop\volgal ou consoante\bin\Debug\net7.0\volgal ou consoante.deps.json
+C:\Users\49802004863\Desktop\volgal ou consoante\bin\Debug\net7.0\volgal ou consoante.runtimeconfig.json
+C:\Users\49802004863\Desktop\volgal ou consoante\bin\Debug\net7.0\volgal ou consoante.dll
+C:\Users\49802004863\Desktop\volgal ou consoante\bin\Debug\net7.0\volgal ou consoante.pdb
+C:\Users\49802004863\Desktop\volgal ou consoante\obj\Debug\net7.0\volgal ou consoante.csproj.AssemblyReference.cache
+C:\Users\49802004863\Desktop\volgal ou consoante\obj\Debug\net7.0\volgal ou consoante.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49802004863\Desktop\volgal ou consoante\obj\Debug\net7.0\volgal ou consoante.AssemblyInfoInputs.cache
+C:\Users\49802004863\Desktop\volgal ou consoante\obj\Debug\net7.0\volgal ou consoante.AssemblyInfo.cs
+C:\Users\49802004863\Desktop\volgal ou consoante\obj\Debug\net7.0\volgal ou consoante.csproj.CoreCompileInputs.cache
+C:\Users\49802004863\Desktop\volgal ou consoante\obj\Debug\net7.0\volgal ou consoante.dll
+C:\Users\49802004863\Desktop\volgal ou consoante\obj\Debug\net7.0\refint\volgal ou consoante.dll
+C:\Users\49802004863\Desktop\volgal ou consoante\obj\Debug\net7.0\volgal ou consoante.pdb
+C:\Users\49802004863\Desktop\volgal ou consoante\obj\Debug\net7.0\volgal ou consoante.genruntimeconfig.cache
+C:\Users\49802004863\Desktop\volgal ou consoante\obj\Debug\net7.0\ref\volgal ou consoante.dll

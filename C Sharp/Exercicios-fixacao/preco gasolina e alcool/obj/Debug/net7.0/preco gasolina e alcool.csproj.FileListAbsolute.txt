@@ -1,0 +1,15 @@
+C:\Users\49802004863\Desktop\preco gasolina e alcool\obj\Debug\net7.0\preco gasolina e alcool.csproj.AssemblyReference.cache
+C:\Users\49802004863\Desktop\preco gasolina e alcool\obj\Debug\net7.0\preco gasolina e alcool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49802004863\Desktop\preco gasolina e alcool\obj\Debug\net7.0\preco gasolina e alcool.AssemblyInfoInputs.cache
+C:\Users\49802004863\Desktop\preco gasolina e alcool\obj\Debug\net7.0\preco gasolina e alcool.AssemblyInfo.cs
+C:\Users\49802004863\Desktop\preco gasolina e alcool\obj\Debug\net7.0\preco gasolina e alcool.csproj.CoreCompileInputs.cache
+C:\Users\49802004863\Desktop\preco gasolina e alcool\bin\Debug\net7.0\preco gasolina e alcool.exe
+C:\Users\49802004863\Desktop\preco gasolina e alcool\bin\Debug\net7.0\preco gasolina e alcool.deps.json
+C:\Users\49802004863\Desktop\preco gasolina e alcool\bin\Debug\net7.0\preco gasolina e alcool.runtimeconfig.json
+C:\Users\49802004863\Desktop\preco gasolina e alcool\bin\Debug\net7.0\preco gasolina e alcool.dll
+C:\Users\49802004863\Desktop\preco gasolina e alcool\bin\Debug\net7.0\preco gasolina e alcool.pdb
+C:\Users\49802004863\Desktop\preco gasolina e alcool\obj\Debug\net7.0\preco gasolina e alcool.dll
+C:\Users\49802004863\Desktop\preco gasolina e alcool\obj\Debug\net7.0\refint\preco gasolina e alcool.dll
+C:\Users\49802004863\Desktop\preco gasolina e alcool\obj\Debug\net7.0\preco gasolina e alcool.pdb
+C:\Users\49802004863\Desktop\preco gasolina e alcool\obj\Debug\net7.0\preco gasolina e alcool.genruntimeconfig.cache
+C:\Users\49802004863\Desktop\preco gasolina e alcool\obj\Debug\net7.0\ref\preco gasolina e alcool.dll

@@ -1,0 +1,311 @@
+/* impots */
+@font-face {
+    font-family: "My Font";
+    src: url(../assets/fonts/BebasNeue-Regular.ttf);
+}
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Classes Genéricas */
+
+.layout-grid {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 2px solid yellow; */
+    height: 100%;
+}
+
+/* Header */
+
+header {
+    height: 60px;
+    background-color: #F9003D;
+}
+
+header .header-flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+
+    height: 100%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    /* border: 3px solid white; */
+}
+
+header nav a {
+    font-family: "My Font";
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 10px black;
+    padding: 20px 25px;
+    border-radius: 5px;
+}
+
+header nav a:hover {
+
+    text-shadow: 2px 2px 10px rgba(249, 0, 61, 0.3);
+    background-color: white;
+    color: red;
+}
+
+main .banner {
+    height: 740px;
+    width: 100%;
+    background-image: url(../assets/imagens/imagem-fundo-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+main h1 {
+    color: white;
+    font-family: "My Font";
+    font-size: 76px;
+}
+
+.banner-flex p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #F9003D;
+    font-size: 42px;
+
+
+}
+
+main .banner-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+    /* border: 1px solid white; */
+    height: 80%;
+
+
+
+}
+
+#linha {
+    width: 430px;
+    height: 2px;
+    background-color: #FFAF00;
+}
+
+main .banner {
+    padding-top: 170px;
+    padding-left: 60px;
+}
+
+.banner img {
+    padding-top: 50px;
+}
+
+main .banner2 {
+    background-color: #080324;
+    height: 740px;
+    width: 100%;
+
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.banner2 h2 {
+    font-family: "My Font";
+    color: #F9003D;
+
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+
+
+main .participantes {
+    width: 550px;
+    height: 476px;
+    padding-top: 40px;
+
+}
+
+.participantes h3 {
+    color: white;
+    font-size: 20px;
+}
+
+.participantes p {
+    font-size: 10px;
+}
+
+main h4 {
+    color: yellow;
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+.participantes p {
+    color: white;
+    font-size: 18px;
+    padding-top: 80px;
+}
+
+main .projetos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .info {
+    height: 200px;
+    background-image: url(../assets/imagens/imagem-fundo-info.png);
+}
+
+main .escritas {
+    color: white;
+    font-size: 18px;
+}
+
+main .caixas {
+    color: #A259F7;
+    border: 1px solid #A259F7;
+    font-size: 28px;
+    height: 80px;
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .endereco {
+    height: 600px;
+    background-image: url(../assets/imagens/imagem-fundo-endereco.png);
+}
+
+#box-endereco {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #A259F7;
+    background-color: black;
+    width: 820px;
+    height: 220px;
+}
+
+main h5 {
+    color: #FFAF00;
+    font-size: 55px;
+    padding-right: 490px;
+}
+
+#all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#box-endereco p {
+    color: #A259F7;
+    padding-left: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+#mapa {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+footer {
+    background-color: #F9003D;
+    height: 60px;
+}
+
+footer p {
+    color: white;
+}
+
+footer .senai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 25px;
+}
+
+
+/***** MEDIA QUERIES *****/
+
+/* tablets >= 768px até 991px*/
+@media screen and (max-width: 991px) {}
+
+/* smartphones >= 0 até 767px */
+@media screen and (max-width: 767px) {
+    .mostraMenu {
+        left: 0;
+        opacity: 1;
+    }
+
+    /* header #menu-mobile {
+        display: block;
+    } */
+
+    header nav {
+        position: fixed;
+        top: 60px;
+        left: -80vw;
+        width: 80vw;
+        height: calc(100vh - 60px);
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #F9003D;
+        opacity: 0;
+        transition: left 1s, opacity 0.6s;
+    }
+
+
+    /* temporariamenteindisponivel */
+    /* main {
+        display: none;
+    } */
+
+    /* footer {
+        display: none;
+    } */
+
+    /* banner */
+    main .banner-flex {
+        justify-content: center;
+    }
+    main .banner-flex h1 {
+        font-size: 40px;
+        text-align: justify;
+    }
+
+
+}

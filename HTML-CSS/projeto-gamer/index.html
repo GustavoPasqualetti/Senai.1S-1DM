@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Gamer</title>
+    <link rel="stylesheet" href="./css/estylo.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="header-top">
+            <div class="layout-grid alinhamento-between-center">
+                <div class="contatos">
+                    <div class="phone">
+                        <img src="./assets/icons/icone_telefone.svg" alt="Ícone de telefone">
+                        <span>(11) 0900-1010</span>
+                    </div>
+                    <div class="email">
+                        <img src="./assets/icons/icone_email.svg" alt="Ícone de e-mail">
+                        <span>contato@gamer.com.br</span>
+                    </div>
+                </div>
+
+                <div class="midias-sociais">
+                    <a href="">
+                        <img src="./assets/icons/facebook.svg" alt="Imagem link do Facebook da empresa Gamer">
+                    </a>
+                    <a href="">
+                        <img src="./assets/icons/linkedin.svg" alt="Imagem link do Linkedin da empresa Gamer">
+                    </a>
+                    <a href="">
+                        <img src="./assets/icons/instagram.svg" alt="Imagem link do Instagram da empresa Gamer">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="layout-grid alinhamento-between-center">
+                <!-- menu hamburger -->
+                <img onclick="mostrarMenu()" src="./assets/icons/menu.svg" class="menu-hamburger"
+                    alt="Ícone para abrir e fechar o menu de celular">
+
+                <img class="logo" src="./assets/images/logotipo-gamer.svg"
+                    alt="Logotipo da empresa. Texto Gamer com um joystick ao centro">
+
+                <nav class="menu" id="menu">
+                    <a href="">Início</a>
+                    <a href="">Jogadores</a>
+                    <a href="">Equipes</a>
+                    <a href="">Notícias</a>
+
+                    <!-- visível apenas no mobile -->
+
+                    <a class="phone">
+                        <img src="./assets/icons/icone_telefone.svg"
+                            alt="Ícone de Telefone. Abre e fecha o menu principal, no celular">
+                        <span>(11) 0900-1010</span>
+                    </a>
+                    <a class="email">
+                        <img src="./assets/icons/icone_email.svg" alt="Ícone de e-mail">
+                        <span>contato@gamer.com.br</span>
+                    </a>
+
+                    <div class="midias-sociais">
+                        <a href="">
+                            <img src="./assets/icons/facebook.svg" alt="Imagem link do Facebook da empresa Gamer">
+                        </a>
+                        <a href="">
+                            <img src="./assets/icons/linkedin.svg" alt="Imagem link do Linkedin da empresa Gamer">
+                        </a>
+                        <a href="">
+                            <img src="./assets/icons/instagram.svg" alt="Imagem link do Instagram da empresa Gamer">
+                        </a>
+                    </div>
+                </nav>
+
+                <!-- menu 3 pontinhos -->
+                <img src="./assets/icons/3 pontinhos.svg" class="menu-pontinhos" onclick="mostrarUsuario()"
+                    alt="Ícone 3 pontinhos, abre o menu de usuários">
+
+                <div class="menu-usuarios" id="usuario">
+                    <a href="">
+                        <img src="./assets/icons/usuario.svg" alt="Ícone de perfil">
+                    </a>
+                    <a href="">
+                        <img src="./assets/icons/compras.svg" alt="Ícone de sacola">
+                    </a>
+                    <a href="">
+                        <img src="./assets/icons/pesquisa.svg" alt="Ícone lupa de pesquisa">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h1>Liga Gamers</h1>
+            <a class="botao-sobre">Sobre</a>
+        </section>
+
+        <section class="jogos">
+            <div class="jogos-flex layout-grid">
+                <img src="./assets/images/Aviso do Card fifa.png" alt="imagem do jogo fifa 23">
+                <img src="./assets/images/Card-CS GO.png" alt="imagem do jogo Counter Strike">
+            </div>
+        </section>
+
+        <section class="info layout-grid">
+            <article class="titulo">
+                <h2>E N T R E P A R A O T I M E P R O G A M E R</h2>
+                <div id="linha"></div>
+            </article>
+            <div class="personagens">
+                <div class="p1">
+                    <img id="kj" src="./assets/images/kiljoy (1).png" alt="killjoy">
+                    <img id="kj2" src="assets/images/Group killjoy.png" alt="">
+                </div>
+                <div class="p2">
+                    <img id="ipg" src="./assets/images/lp-gamer-home_0000s_0000s_0002_lol (1).png" alt="ipgamerhouse">
+                    <img id="ipg2" src="assets/images/Group ipgamerhome.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="noticias layout-grid">
+            <article class="titulo-noticia">
+                <h3>NOTÍCIA</h3>
+                <div id="linha2"></div>
+            </article>
+            <article>
+                <div class="box-noticias layout-grid">
+                    <img src="./assets/images/VCT-eSports 1.png" alt="card1">
+                    <h1>Titulo da Noticia</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since.</p>
+                </div>
+                <div class="box-noticias layout-grid">
+                    <img src="./assets/images/VCT-eSports 2.png" alt="card2">
+                    <h1>Titulo da Noticia</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since.</p>
+                </div>
+                <div class="box-noticias layout-grid">
+                    <img src="./assets/images/VCT-eSports 3.png" alt="card3">
+                    <h1>Titulo da Noticia</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since.</p>
+                </div>
+                <div class="box-noticias layout-grid">
+                    <img src="./assets/images/VCT-eSports 4.png" alt="card4">
+                    <h1>Titulo da Noticia</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since.</p>
+                </div>
+                <div class="box-noticias layout-grid">
+                    <img src="./assets/images/VCT-eSports 3.png" alt="card5">
+                    <h1>Titulo da Noticia</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since.</p>
+                </div>
+                <div class="box-noticias layout-grid">
+                    <img src="./assets/images/VCT-eSports 4.png" alt="card6">
+                    <h1>Titulo da Noticia</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since.</p>
+                </div>
+                <div class="box-noticias layout-grid">
+                    <img src="./assets/images/VCT-eSports 1.png" alt="card7">
+                    <h1>Titulo da Noticia</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since.</p>
+                </div>
+                <div class="box-noticias layout-grid">
+                    <img src="./assets/images/VCT-eSports 2.png" alt="card8">
+                    <h1>Titulo da Noticia</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="layout-grid">
+            <!-- PARTE DE CIMA DO FOOTER  -->
+            <div class="parte1">
+                <img src="./assets/images/logotipo-gamer.svg" alt="logotipo" id="logofooter">
+                <p>Nosso sucesso na criação de soluções de negócios se deve em grande parte à nossa equipe talentosa e
+                    altamente comprometida.</p>
+                <div id="redes-sociais">
+                    <img src="./assets/images/icone_facebook_footer.svg" alt="face">
+                    <img src="./assets/images/icone_linkedin_footer.svg" alt="linkedin">
+                    <img src="./assets/images/icone_intagram_footer.svg" alt="insta">
+                </div>
+            </div>
+
+            <!-- LINKS UTEIS  -->
+            <div class="parte2">
+                <h1>Links Uteis</h1>
+                <div class="linhafooter"></div>
+                <div class="alinhar-links">
+                    <div class="alinhamento">
+                        <div class="linhas"></div>
+                        <p>Inicio</p>
+                    </div>
+                    <div class="alinhamento">
+                        <div class="linhas"></div>
+                        <p>Jogadores</p>
+                    </div>
+                    <div class="alinhamento">
+                        <div class="linhas"></div>
+                        <p>Noticias</p>
+                    </div>
+                </div>
+                <div class="alinhar-links2">
+                    <div class="alinhamento">
+                        <div class="linhas"></div>
+                        <p>Login</p>
+                    </div>
+                    <div class="alinhamento">
+                        <div class="linhas"></div>
+                        <p>Equipes</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- CONTATOS  -->
+            <div class="parte3">
+                <h1>Contatos</h1>
+                <div class="linhafooter"></div>
+                <div class="contatos-info">
+                    <p class="amarelo">Localização:</p>
+                    <p>Rua Niterói, 180 - São Caetano do Sul- SP</p>
+                    <p class="amarelo espaco">Junte-se a nós:</p>
+                    <p>contato@gamer.com.br</p>
+                    <p class="amarelo espaco">Telefone:</p>
+                    <p>(11) 0900-1010</p>
+                </div>
+            </div>
+
+            <!-- NEWSLETTER  -->
+            <div class="parte4">
+                <h1>Newsletter</h1>
+                <div class="linhafooter"></div>
+                <div class="caixas-newsletter">
+                    <div>
+                        <label for="email"></label>
+                        <input type="text" id="box-email" placeholder="Digite seu e-mail:">
+                    </div>
+                    <button id="box-enviar">
+                        <p>Enviar</p>
+                    </button>
+                </div>
+                <div id="box-voltar"><img src="./assets/icons/Botao_voltar_ao_topo.svg" alt="icone voltar"></div>
+                <p class="ultima-frase">©Copyright2022-GamerJogosDigitais</p>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+    <script>
+        function mostrarMenu() {
+            document.getElementById("menu").classList.toggle("mostrar-menu");
+        }
+
+        function mostrarUsuario() {
+            document.getElementById("usuario").classList.toggle("mostrar-usuario")
+        }
+
+    </script>
+
+</body>
+
+</html>

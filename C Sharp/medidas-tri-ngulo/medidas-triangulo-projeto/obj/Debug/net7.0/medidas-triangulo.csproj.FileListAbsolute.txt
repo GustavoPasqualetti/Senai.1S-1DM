@@ -1,0 +1,15 @@
+C:\Users\49802004863\Desktop\medidas-triangulo\obj\Debug\net7.0\medidas-triangulo.csproj.AssemblyReference.cache
+C:\Users\49802004863\Desktop\medidas-triangulo\obj\Debug\net7.0\medidas-triangulo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49802004863\Desktop\medidas-triangulo\obj\Debug\net7.0\medidas-triangulo.AssemblyInfoInputs.cache
+C:\Users\49802004863\Desktop\medidas-triangulo\obj\Debug\net7.0\medidas-triangulo.AssemblyInfo.cs
+C:\Users\49802004863\Desktop\medidas-triangulo\obj\Debug\net7.0\medidas-triangulo.csproj.CoreCompileInputs.cache
+C:\Users\49802004863\Desktop\medidas-triangulo\bin\Debug\net7.0\medidas-triangulo.exe
+C:\Users\49802004863\Desktop\medidas-triangulo\bin\Debug\net7.0\medidas-triangulo.deps.json
+C:\Users\49802004863\Desktop\medidas-triangulo\bin\Debug\net7.0\medidas-triangulo.runtimeconfig.json
+C:\Users\49802004863\Desktop\medidas-triangulo\bin\Debug\net7.0\medidas-triangulo.dll
+C:\Users\49802004863\Desktop\medidas-triangulo\bin\Debug\net7.0\medidas-triangulo.pdb
+C:\Users\49802004863\Desktop\medidas-triangulo\obj\Debug\net7.0\medidas-triangulo.dll
+C:\Users\49802004863\Desktop\medidas-triangulo\obj\Debug\net7.0\refint\medidas-triangulo.dll
+C:\Users\49802004863\Desktop\medidas-triangulo\obj\Debug\net7.0\medidas-triangulo.pdb
+C:\Users\49802004863\Desktop\medidas-triangulo\obj\Debug\net7.0\medidas-triangulo.genruntimeconfig.cache
+C:\Users\49802004863\Desktop\medidas-triangulo\obj\Debug\net7.0\ref\medidas-triangulo.dll

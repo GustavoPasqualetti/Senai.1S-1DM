@@ -1,0 +1,15 @@
+C:\Users\49802004863\Desktop\nome != vazio\bin\Debug\net7.0\nome != vazio.exe
+C:\Users\49802004863\Desktop\nome != vazio\bin\Debug\net7.0\nome != vazio.deps.json
+C:\Users\49802004863\Desktop\nome != vazio\bin\Debug\net7.0\nome != vazio.runtimeconfig.json
+C:\Users\49802004863\Desktop\nome != vazio\bin\Debug\net7.0\nome != vazio.dll
+C:\Users\49802004863\Desktop\nome != vazio\bin\Debug\net7.0\nome != vazio.pdb
+C:\Users\49802004863\Desktop\nome != vazio\obj\Debug\net7.0\nome != vazio.csproj.AssemblyReference.cache
+C:\Users\49802004863\Desktop\nome != vazio\obj\Debug\net7.0\nome != vazio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49802004863\Desktop\nome != vazio\obj\Debug\net7.0\nome != vazio.AssemblyInfoInputs.cache
+C:\Users\49802004863\Desktop\nome != vazio\obj\Debug\net7.0\nome != vazio.AssemblyInfo.cs
+C:\Users\49802004863\Desktop\nome != vazio\obj\Debug\net7.0\nome != vazio.csproj.CoreCompileInputs.cache
+C:\Users\49802004863\Desktop\nome != vazio\obj\Debug\net7.0\nome != vazio.dll
+C:\Users\49802004863\Desktop\nome != vazio\obj\Debug\net7.0\refint\nome != vazio.dll
+C:\Users\49802004863\Desktop\nome != vazio\obj\Debug\net7.0\nome != vazio.pdb
+C:\Users\49802004863\Desktop\nome != vazio\obj\Debug\net7.0\nome != vazio.genruntimeconfig.cache
+C:\Users\49802004863\Desktop\nome != vazio\obj\Debug\net7.0\ref\nome != vazio.dll

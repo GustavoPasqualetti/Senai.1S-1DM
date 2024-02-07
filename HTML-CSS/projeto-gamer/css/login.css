@@ -1,0 +1,119 @@
+ /* formulário */
+ .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60vh;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url(../assets/images/background-login.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: relative;
+    z-index: 0;
+
+    width: 100%;
+    
+}
+
+main .box-login {
+ width: 80%;
+ height: 450px;
+ display: flex;
+ border-radius: 8px;
+
+ border: 1px solid white;
+ 
+}
+ 
+main .box-linha {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.6), rgba(60, 3, 65, 0.38));
+    width: 100%;
+
+}
+
+.login::before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    color: white;
+
+}
+
+.linha {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  gap: -20px;
+    padding: 5px 10px;
+    width: 80%;
+    height: 40px;
+    border-radius: 8px;
+
+    background: 
+        /* efeito aplicado ao ao box a partir do padding */
+        linear-gradient(to right, rgba(239, 239, 239, 0.6), rgba(239, 239, 239, 0.1)) padding-box,
+        /* efeito aplicado apenas na borda */
+        linear-gradient(to right,  rgba(239, 239, 239, 0.6), rgba(239, 239, 239, 0.1)) border-box;
+
+        border-image-slice: 1;
+        border: 1px solid transparent;
+}
+
+.linha input {
+   
+    height: 35px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.linha input::placeholder {
+    color: white;
+}
+
+main .linha1 {
+    height: 2px;
+    width: 100px;
+    background-color: #F9AA01;
+}
+
+main .box-logar {
+    width: 80%;
+    height: 45px;
+    background-color: #F9AA01;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .box-logar button {
+    background-color: transparent;
+    border: none;
+    font-size: 22px;
+    font-family: TitilliumWeb-Bold;
+}
+
+main .login h1 {
+    font-size: 26px;
+    font-family: TitilliumWeb-Black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

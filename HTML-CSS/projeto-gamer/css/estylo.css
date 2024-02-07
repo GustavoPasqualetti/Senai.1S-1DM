@@ -1,0 +1,679 @@
+/* imports das fontes */
+
+/* TITILLIUM WEB */
+@font-face {
+    font-family: TitilliumWeb-Black;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWeb-Bold;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
+/* INTER */
+@font-face {
+    font-family: Inter;
+    src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+/* quicksand */
+@font-face {
+    font-family: Quicksand;
+    src: url(../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #ffffff;
+}
+
+/* Classes genéricas */
+.mostrar-menu {
+    left: 0 !important;
+}
+
+
+.layout-grid {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* justify content + align items */
+.alinhamento-between-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Mobile First */
+
+/* HEADER */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    width: 100vw;
+    height: 60px;
+    background-color: #1B1426;
+}
+
+/* Header Top */
+header .header-top {
+    display: none;
+}
+
+/* Header Bottom */
+
+
+header .header-bottom {
+    height: 100%;
+}
+
+header .header-bottom img.logo {
+    width: 86px;
+}
+
+header .header-bottom nav {
+    position: fixed;
+    top: 60px;
+    left: -80vw;
+    width: 80vw;
+    height: calc(100vh - 60px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+    backdrop-filter: blur(45px);
+    transition: 0.8s;
+}
+
+/* somente links "filhos diretos" */
+header .header-bottom nav>a {
+    padding: 30px 0;
+    color: white;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 2px solid #F9AA01;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header-bottom nav>a:hover {
+    border-bottom: #F9AA01;
+}
+
+header .header-bottom nav>a:last-of-type {
+    border-bottom: none;
+}
+
+/* ícone de mídias sociais possibilidade position 
+header .header-bottom nav .midias-sociais {
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 100px);
+    border: 1px solid red;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+*/
+
+header .header-bottom nav .midias-sociais {
+    display: flex;
+    justify-content: center;
+    /* gap é o espaçamento entre os elementos, funciona em linha e também em coluna. */
+    gap: 50px;
+}
+
+header .header-bottom .menu-usuarios {
+    position: fixed;
+    top: 60px;
+    right: -20vw;
+    height: 180px;
+    width: 20vw;
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+    transition: 0.6s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.mostrar-usuario {
+    right: 0 !important;
+}
+
+/* MAIN */
+main {
+    margin-top: 60px;
+}
+
+/* Banner */
+.banner {
+    width: 100%;
+    height: 606px;
+    padding: 10px 0;
+    background-image: url(../assets/images/fundo-banner.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+main .banner h1 {
+    font-family: TitilliumWeb-Black;
+    font-size: 48px;
+    text-shadow: 0 0 7px #FD4255;
+
+}
+
+main .botao-sobre {
+    background-color: #F9AA01;
+    height: 40px;
+    width: 171px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1B1426;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: TitilliumWeb-Bold;
+    margin-bottom: 60px;
+    border-radius: 8px;
+}
+
+main .jogos-flex {
+    background-color: #1B1426;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .info {
+    width: 100%;
+    height: 1600px;
+    background-color: #F9AA01;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .titulo h2 {
+    color: #1B1426;
+    font-family: TitilliumWeb-Black;
+    font-size: 18px;
+}
+
+#linha {
+    width: 200px;
+    height: 2px;
+    background-color: #1B1426;
+}
+
+main .titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#linha2 {
+    width: 200px;
+    height: 2px;
+    background-color: #F9AA01;
+}
+
+main .titulo-noticia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+main .noticias {
+    width: 100%;
+    height: 4300px;
+    background-image: url(../assets/images/backgrund_notícias.png);
+}
+
+main .noticias h3 {
+    font-family: TitilliumWeb-Black;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+main .personagens {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+main .p1 #kj2 {
+    position: absolute;
+    right: 10px;
+    padding-top: 130px;
+}
+
+main .p2 #ipg2 {
+    position: absolute;
+    left: 20px;
+    padding-top: 90px;
+}
+
+/* Tablets >= 768px*/
+@media screen and (min-width: 768px) {}
+
+/* Desktops >= 1200px*/
+@media screen and (min-width: 1200px) {
+    .layout-grid {
+        width: 100%;
+
+        /* border: 3px dotted yellowgreen; */
+    }
+
+    /* HEADER  */
+    header {
+        position: static;
+        height: 140px;
+    }
+
+    /* Header Top */
+    header .header-top {
+        /* block é o valor default da maioria dos elementos */
+        display: block;
+        height: 50px;
+        border-bottom: 2px solid #F9AA01;
+    }
+
+    header .header-top .contatos {
+        width: 415px;
+        display: flex;
+        justify-content: space-between;
+
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+
+        /* border: 2px solid white; */
+    }
+
+    header .header-top .contatos>div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        /* border: 1px solid yellow; */
+    }
+
+    header .header-top .midias-sociais {
+        width: 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 2px solid white; */
+    }
+
+    /* Esconde elementos desnecessários */
+    header .menu-hamburger,
+    header .menu-pontinhos,
+    header .header-bottom nav .phone,
+    header .header-bottom nav .email,
+    header .header-bottom nav .midias-sociais {
+        display: none;
+    }
+
+    /* Header Bottom */
+    header .header-bottom {
+        height: 90px;
+    }
+
+    header .header-bottom img.logo {
+        width: 200px;
+    }
+
+    header .header-bottom nav {
+        position: static;
+        width: 440px;
+        height: 50px;
+        padding: 0;
+        flex-direction: row;
+        align-items: center;
+        /* background-color: red; */
+    }
+
+    header .header-bottom nav>a {
+        border: none;
+        font-size: 14px;
+    }
+
+    header .header-bottom nav>a:hover {
+        background-color: transparent;
+        color: #F9AA01;
+    }
+
+    header .header-bottom .menu-usuarios {
+        position: static;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 120px;
+        height: auto;
+        background-color: transparent;
+    }
+
+    /* MAIN */
+    main {
+        margin-top: 0;
+    }
+
+    /* Banner */
+    main .banner {
+        height: 722px;
+        /* alterar a imagem de fundo */
+        background-image: url(../assets/images/Banner_background_1.png);
+        background-size: cover;
+        background-position: top;
+
+    }
+
+    main .banner h1 {
+        font-size: 80px;
+    }
+
+    /* Sessão de Jogos */
+    main .jogos {
+        height: 500px;
+        background-color: #1B1426;
+        width: 100%;
+    }
+
+    main .jogos .jogos-flex {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    main .jogos .jogos-flex img {
+        width: 555px;
+    }
+
+    main .info {
+        width: 100%;
+        height: 1000px;
+        background-color: #F9AA01;
+        background-size: cover;
+    }
+
+    main .personagens {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 100px;
+    }
+
+    main .p1 #kj {
+        width: 600px;
+        height: 650px;
+    }
+
+    main .p2 #ipg {
+        width: 600px;
+        height: 650px;
+    }
+
+    main .p1 #kj2 {
+        position: absolute;
+        left: 610px;
+        padding-top: 170px;
+        width: 350px;
+        height: 550px;
+    }
+
+    main .p2 #ipg2 {
+        position: absolute;
+        padding-top: 170px;
+        width: 350px;
+        height: 550px;
+        left: 1000px;
+    }
+
+    main .titulo h2 {
+        color: #1B1426;
+        font-family: TitilliumWeb-Black;
+        font-size: 40px;
+        padding-top: 60px;
+    }
+
+    #linha {
+        width: 200px;
+        height: 2px;
+        background-color: #1B1426;
+    }
+
+}
+
+/* main .desktop-personagens {
+    display: none;
+} */
+
+section .box-noticias {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 100px;
+    background-image: linear-gradient(to right bottom, rgba(37, 26, 52, 0.34), rgba(5, 1, 12, 0.8));
+    height: 400px;
+}
+
+section .box-noticias h1 {
+    margin-left: 20px;
+    font-family: TitilliumWeb-Bold;
+    font-size: 22px;
+}
+
+section .box-noticias p {
+    padding: 20px;
+    font-size: 16px;
+    font-family: Quicksand;
+    margin-bottom: 40px;
+}
+
+/* FOOTER */
+
+footer {
+    background-image: url(../assets/images/backgroung_footer.png);
+    width: 100%;
+    height: 1520px;
+}
+
+footer .parte1 {
+    /* border: 1px solid red; */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+footer .parte1 img {
+    width: 140px;
+    height: 40px;
+
+}
+
+footer .parte1 p {
+    font-family: Quicksand;
+    font-size: 14px;
+}
+
+footer #redes-sociais {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+footer .parte2 {
+    padding-top: 130px;
+}
+
+footer .parte2 h1 {
+    padding-bottom: 5px;
+    font-family: TitilliumWeb-Black;
+}
+
+footer .linhafooter {
+    width: 33%;
+    height: 3px;
+    background-color: #F9AA01;
+    margin-bottom: 50px;
+
+}
+
+footer .linhas {
+    background-color: #F9AA01;
+    height: 2px;
+    width: 10px;
+}
+
+footer .parte2 .alinhamento {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+
+}
+
+footer .alinhar-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .alinhar-links2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 191px;
+    padding-top: 15px;
+    padding-bottom: 120px;
+}
+
+
+footer .contatos-info {
+    font-family: TitilliumWeb-Bold;
+
+
+}
+
+footer .contatos-info .amarelo {
+    color: #F9AA01;
+
+}
+
+footer .contatos-info .espaco {
+    padding-top: 7px;
+}
+
+footer .parte4 h1 {
+    padding-top: 100px;
+    font-family: TitilliumWeb-Black;
+}
+
+footer #box-email {
+    width: 320px;
+    height: 40px;
+    border: 1px;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right bottom, rgba(239, 239, 239, 0.6), rgba(239, 239, 239, 0.1));
+    backdrop-filter: blur(30px);
+    border-radius: 8px;
+}
+
+footer #box-email input {
+    background-color: transparent;
+    border: none;
+}
+
+footer #box-email input::placeholder {
+    color: white;
+    font-size: 18px;
+}
+
+footer #box-email {
+    padding-left: 40px;
+    font-family: Quicksand;
+}
+
+footer #box-enviar {
+    width: 320px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9AA01;
+    border-radius: 7px;
+}
+
+
+
+footer #box-enviar p {
+    font-family: TitilliumWeb-Bold;
+    font-size: 22px;
+    color: black;
+}
+
+footer .caixas-newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 105px;
+}
+
+footer #box-voltar {
+    width: 40px;
+    height: 40px;
+    background-color: #F9AA01;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 290px;
+    top: 130px;
+    border-radius: 8px;
+}
+
+footer .ultima-frase {
+    padding-top: 150px;
+    padding-left: 45px
+}

@@ -1,0 +1,15 @@
+C:\Users\49802004863\Desktop\voto\bin\Debug\net7.0\voto.exe
+C:\Users\49802004863\Desktop\voto\bin\Debug\net7.0\voto.deps.json
+C:\Users\49802004863\Desktop\voto\bin\Debug\net7.0\voto.runtimeconfig.json
+C:\Users\49802004863\Desktop\voto\bin\Debug\net7.0\voto.dll
+C:\Users\49802004863\Desktop\voto\bin\Debug\net7.0\voto.pdb
+C:\Users\49802004863\Desktop\voto\obj\Debug\net7.0\voto.csproj.AssemblyReference.cache
+C:\Users\49802004863\Desktop\voto\obj\Debug\net7.0\voto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49802004863\Desktop\voto\obj\Debug\net7.0\voto.AssemblyInfoInputs.cache
+C:\Users\49802004863\Desktop\voto\obj\Debug\net7.0\voto.AssemblyInfo.cs
+C:\Users\49802004863\Desktop\voto\obj\Debug\net7.0\voto.csproj.CoreCompileInputs.cache
+C:\Users\49802004863\Desktop\voto\obj\Debug\net7.0\voto.dll
+C:\Users\49802004863\Desktop\voto\obj\Debug\net7.0\refint\voto.dll
+C:\Users\49802004863\Desktop\voto\obj\Debug\net7.0\voto.pdb
+C:\Users\49802004863\Desktop\voto\obj\Debug\net7.0\voto.genruntimeconfig.cache
+C:\Users\49802004863\Desktop\voto\obj\Debug\net7.0\ref\voto.dll

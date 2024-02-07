@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="layout-grid header-flex">
+            <nav id="navmenu">
+                <a href="">Início</a>
+                <a href="">Sobre</a>
+                <a href="">Desafios</a>
+                <a href="">Endereço</a>
+            </nav>
+            <img src="../landing-page/assets/icons/menu_FILL0_wght400_GRAD0_opsz48 (2).svg" id="menu-mobile"
+                alt="Abre o menu mobile" onclick="mostraMenu()">
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <article class="layout-grid banner-flex">
+                <h1>Desenvolvimento <br>de sistemas 2023</h1>
+                <div id="linha"></div>
+                <p>SENAI INFORMÁTICA</p>
+                <img src="./assets/imagens/mouse.svg" alt="mouse">
+            </article>
+        </section>
+
+        <section class="banner2">
+            <article class="projetos layout-grid">
+                <div class=" infos">
+                    <h2>SOBRE OS PROJETOS</h2>
+                    <img src="./assets/imagens/imagem-seção-sobre.png" alt="secao">
+                </div>
+                <div class=" participantes">
+                    <h3>PARTICIPANTES</h3>
+                    <h4>
+                        MAIS DE 80 ALUNOS <br> ORGANIZADOS EM 16 GRUPOS
+                    </h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                        velit
+                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in
+                        culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Enim quaerat est magnam, ipsum velit quasi inventore natus iste,
+                        repellat tempore aspernatur voluptas reiciendis quam, obcaecati recusandae debitis itaque
+                        quisquam dolores.
+                    </p>
+                </div>
+            </article>
+        </section>
+        <section class="info">
+            <article class="layout-grid" id="boxes">
+                <div>
+                    <div class="escritas">LOCAL</div>
+                    <div class="caixas">
+                        <p>SAO PAULO</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="escritas">DURAÇAO</div>
+                    <div class="caixas">
+                        <p>90 DIAS</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="escritas">DESAFIOS</div>
+                    <div class="caixas">
+                        <p>+30 DESAFIOS</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="endereco">
+            <article class="layout-grid" id="all">
+                <div>
+                    <h5>ENDEREÇO:</h5>
+                </div>
+                <div id="box-endereco">
+                    <div>
+                        <p>Alameda Barão de Limeira, 539<br> Santa Cecilia, São Paulo - SP<br> CEP: 01202-001</p>
+                    </div>
+                    <div>
+                        <img src="assets/imagens/mapa.png" alt="mapa" id="mapa">
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="senai">
+            <p>Copyright © 2020 - Escola Senai de Informática</p>
+        </div>
+    </footer>
+
+    <script>
+        function mostraMenu() {
+            document.getElementById("navmenu").classList.toggle("mostraMenu");
+        }
+    </script>
+
+</body>
+
+</html>

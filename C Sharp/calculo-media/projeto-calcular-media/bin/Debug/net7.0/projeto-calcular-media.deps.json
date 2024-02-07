@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "projeto-calcular-media/1.0.0": {
+        "runtime": {
+          "projeto-calcular-media.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "projeto-calcular-media/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

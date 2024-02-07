@@ -1,0 +1,15 @@
+C:\Users\49802004863\Desktop\senha\obj\Debug\net7.0\senha.csproj.AssemblyReference.cache
+C:\Users\49802004863\Desktop\senha\obj\Debug\net7.0\senha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49802004863\Desktop\senha\obj\Debug\net7.0\senha.AssemblyInfoInputs.cache
+C:\Users\49802004863\Desktop\senha\obj\Debug\net7.0\senha.AssemblyInfo.cs
+C:\Users\49802004863\Desktop\senha\obj\Debug\net7.0\senha.csproj.CoreCompileInputs.cache
+C:\Users\49802004863\Desktop\senha\bin\Debug\net7.0\senha.exe
+C:\Users\49802004863\Desktop\senha\bin\Debug\net7.0\senha.deps.json
+C:\Users\49802004863\Desktop\senha\bin\Debug\net7.0\senha.runtimeconfig.json
+C:\Users\49802004863\Desktop\senha\bin\Debug\net7.0\senha.dll
+C:\Users\49802004863\Desktop\senha\bin\Debug\net7.0\senha.pdb
+C:\Users\49802004863\Desktop\senha\obj\Debug\net7.0\senha.dll
+C:\Users\49802004863\Desktop\senha\obj\Debug\net7.0\refint\senha.dll
+C:\Users\49802004863\Desktop\senha\obj\Debug\net7.0\senha.pdb
+C:\Users\49802004863\Desktop\senha\obj\Debug\net7.0\senha.genruntimeconfig.cache
+C:\Users\49802004863\Desktop\senha\obj\Debug\net7.0\ref\senha.dll

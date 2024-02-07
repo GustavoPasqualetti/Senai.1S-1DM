@@ -1,0 +1,15 @@
+C:\Users\49802004863\Desktop\15 numeros\bin\Debug\net7.0\15 numeros.exe
+C:\Users\49802004863\Desktop\15 numeros\bin\Debug\net7.0\15 numeros.deps.json
+C:\Users\49802004863\Desktop\15 numeros\bin\Debug\net7.0\15 numeros.runtimeconfig.json
+C:\Users\49802004863\Desktop\15 numeros\bin\Debug\net7.0\15 numeros.dll
+C:\Users\49802004863\Desktop\15 numeros\bin\Debug\net7.0\15 numeros.pdb
+C:\Users\49802004863\Desktop\15 numeros\obj\Debug\net7.0\15 numeros.csproj.AssemblyReference.cache
+C:\Users\49802004863\Desktop\15 numeros\obj\Debug\net7.0\15 numeros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49802004863\Desktop\15 numeros\obj\Debug\net7.0\15 numeros.AssemblyInfoInputs.cache
+C:\Users\49802004863\Desktop\15 numeros\obj\Debug\net7.0\15 numeros.AssemblyInfo.cs
+C:\Users\49802004863\Desktop\15 numeros\obj\Debug\net7.0\15 numeros.csproj.CoreCompileInputs.cache
+C:\Users\49802004863\Desktop\15 numeros\obj\Debug\net7.0\15 numeros.dll
+C:\Users\49802004863\Desktop\15 numeros\obj\Debug\net7.0\refint\15 numeros.dll
+C:\Users\49802004863\Desktop\15 numeros\obj\Debug\net7.0\15 numeros.pdb
+C:\Users\49802004863\Desktop\15 numeros\obj\Debug\net7.0\15 numeros.genruntimeconfig.cache
+C:\Users\49802004863\Desktop\15 numeros\obj\Debug\net7.0\ref\15 numeros.dll
